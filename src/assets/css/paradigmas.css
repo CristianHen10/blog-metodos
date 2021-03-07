@@ -1,0 +1,45 @@
+.container_paradigmas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 60px;
+}
+
+.container_paradigmas div {
+    height: 250px;
+    margin-top: 25px;
+}
+
+.first_content {
+    grid-column: 1/2;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+}
+
+.second_content {
+    grid-column: 2/4;
+    display: flex;
+    padding: 5px 8px;
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+}
+
+.third_content {
+    grid-column: 1/3;
+    display: flex;
+    padding: 5px 8px;
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+}
+
+.fourth_content {
+    grid-column: 3/4;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    border: 0.5px solid lightgray;
+    border-radius: 8px;
+}
