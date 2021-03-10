@@ -1,0 +1,20 @@
+[
+    {
+        "idCard":1,
+        "name":"Lenguajes de Programación",
+        "description":"Es un lenguaje formal que, mediante una serie de instrucciones, le permite a un programador escribir un conjunto de órdenes, acciones consecutivas, datos y algoritmos para, de esa forma, crear programas que controlen el comportamiento físico y lógico de una máquina.",
+        "urlImagen":"http://www.icorp.com.mx/blog/wp-content/uploads/2017/12/edu1494860482284_aspR_2.000_w1200_h600_e-713x330.jpg"
+    },
+    {
+        "idCard":2,
+        "name":"Paradigmas",
+        "description":"Un paradigma de programación es una manera o estilo de programación de software. Existen diferentes formas de diseñar un lenguaje de programación y varios modos de trabajar para obtener los resultados que necesitan los programadores.  Se trata de un conjunto de métodos sistemáticos aplicables en todos los niveles del diseño de programas para resolver problemas computacionales.",
+        "urlImagen":"https://www.claseejecutiva.uc.cl/wp-content/uploads/2020/10/Paradigmas-w-s_1045991857-min.jpg"
+    },
+    {
+        "idCard":3,
+        "name":"Calidad en el Software",
+        "description":"¿Como garantizamos que nuestro proyecto de software sea más que un simple sistema? Es aquí donde la calidad se hace necesaria como método y herramienta para la búsqueda de técnicas y procesos que garanticen de manera integral el éxito de nuestro software. Pero esto va más allá de que el software funcione, esto abarca más ámbitos que se ven involucrados de manera directa a darnos la certeza de tener un producto de alta calidad.",
+        "urlImagen":"https://3.bp.blogspot.com/-pSBQJUtjwIw/XIWojllOB9I/AAAAAAAAANo/2R7gPjdqr8UwkViWhFj0ZW3oXm9lxclEACLcBGAs/s1600/imagen.jpg"
+    }
+]

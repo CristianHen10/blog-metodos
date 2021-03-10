@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <>
-      <Navbar bg="light">
+      <Navbar collapseOnSelect expand="lg" bg="light">
         <Navbar.Brand href="#home">
           <img
             src={logo}
@@ -16,10 +16,12 @@ function Header() {
             alt="React Bootstrap logo"
           />
         </Navbar.Brand>
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse className="justify-content-end" id="responsive-navbar-nav">
           <Nav>
             <Nav.Link><Link to="/">Home</Link></Nav.Link>
             <Nav.Link><Link to="/paradigmas">Paradigmas</Link></Nav.Link>
+            <Nav.Link><Link to="/lenguajes">Lenguajes</Link></Nav.Link>
             <Nav.Link><Link to="/referencias">Referencias</Link></Nav.Link>
           </Nav>
         </Navbar.Collapse>

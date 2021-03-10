@@ -1,0 +1,29 @@
+[
+    {
+        "idLenguaje":1,
+        "nombre":"Java",
+        "descripcion":"Reconocido por su legibilidad y simplicidad, Java es uno de los lenguajes de programación más adoptados: más 9 millones de desarrolladores lo usan y está presente en 7 mil millones de dispositivos en todo el mundo. Desde 2001 se mantiene en las primeras posiciones.",
+        "tipoLenguaje":"COMPILADO",
+        "urlImagen":"https://i.blogs.es/8d2420/650_1000_java/1366_2000.png",
+        "sizeColText": 8,
+        "sizeColImg": 4
+    },
+    {
+        "idLenguaje":2,
+        "nombre":"C#",
+        "descripcion":"También llamado “C Sharp”, está orientado a objetos y fue desarrollado en el año 2000 por Microsoft para ser empleado en una amplia gama de aplicaciones empresariales ejecutadas en el framework .NET. C Sharp es una evolución del C y C++ que se destaca por su sencillez y modernidad.",
+        "tipoLenguaje":"COMPILADO",
+        "urlImagen":"https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+        "sizeColText": 8,
+        "sizeColImg": 4
+    },
+    {
+        "idLenguaje":3,
+        "nombre":"JavaScript",
+        "descripcion":"JavaScript es el lenguaje de programación encargado de dotar de mayor interactividad y dinamismo a las páginas web. Cuando JavaScript se ejecuta en el navegador, no necesita de un compilador. El navegador lee directamente el código, sin necesidad de terceros. Por tanto, se le reconoce como uno de los tres lenguajes nativos de la web junto a HTML (contenido y su estructura) y a CSS (diseño del contenido y su estructura).",
+        "tipoLenguaje":"COMPILADO",
+        "urlImagen":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+        "sizeColText": 8,
+        "sizeColImg": 4
+    }
+]

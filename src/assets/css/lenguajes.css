@@ -1,0 +1,21 @@
+.container-lenguajes {
+    margin-top: 35px;
+}
+
+.container-info {
+    display: grid;
+    place-items: center;
+    place-content: center;
+}
+
+.content-description {
+    display: flex;
+    place-items: center;
+}
+
+.content-img {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+

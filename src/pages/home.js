@@ -1,66 +1,45 @@
 import React from "react";
 import Header from "../components/Header";
-import { Container, Row, Col, Card, Button } from "react-bootstrap";
-import Logo from '../assets/images/icon-blog.png';
-import '../assets/css/home.css';
+import { Container, Row, Col, Card } from "react-bootstrap";
+import "../assets/css/home.css";
 import Footer from "../components/Footer";
+import data from '../assets/json/home.json';
 
-function home() {
+function home() { 
   return (
     <>
       <Header />
       <div className="container">
+        <p></p>
         <article className="article_principal">
-          Lorem Ipsum es simplemente el texto de relleno de las imprentas y
-          archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
-          las industrias desde el año 1500, cuando un impresor (N. del T.
-          persona que se dedica a la imprenta) desconocido usó una galería de
-          textos y los mezcló de tal manera que logró hacer un libro de textos
-          especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como
-          texto de relleno en documentos electrónicos, quedando esencialmente
-          igual al original. Fue popularizado en los 60s con la creación de las
-          hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
-          recientemente con software de autoedición, como por ejemplo Aldus
-          PageMaker, el cual incluye versiones de Lorem Ipsum.
+          Este blog está orientado a conocer según la opinión del autor y con
+          base en la investigación realizada los paradigmas de programación que
+          a diario utilizamos y como estos son una de las bases para poder hacer
+          que nuestro proyecto tenga una calidad óptima según se requiera.<br /><br />
+          También vamos a ver y conocer algunos lenguajes de programación según
+          su tipo y como estos aplican algunos de los paradigmas más utilizados.
+          Teniendo como premisa y pilar del blog la calidad y como llegamos a
+          ella mediante la utilización correcta y acertada de estos paradigmas y
+          otros aspectos como el diseño y la arquitectura de software para
+          llegar a un buen software. Porque como dicen por ahí: “No es lo mismo
+          software, que un buen software”.
         </article>
       </div>
       <Container className="container_cards">
         <Row>
-          <Col>
-            <Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={Logo} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col><Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={Logo} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card></Col>
-          <Col><Card style={{ width: "18rem" }}>
-              <Card.Img variant="top" src={Logo} />
-              <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </Card.Text>
-                <Button variant="primary">Go somewhere</Button>
-              </Card.Body>
-            </Card></Col>
+          {data.map((values) => (
+              <Col md={4} sm={12} style={{marginBottom: '25px'}} >
+              <Card key={values.idCard} style={{ height: '100%' }} >
+                <Card.Img variant="top" src={values.urlImagen} className="img-card-home" />
+                <Card.Body>
+                  <Card.Title>{values.name}</Card.Title>
+                  <Card.Text>
+                    {values.description}
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
         </Row>
       </Container>
       <Footer />

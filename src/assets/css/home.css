@@ -1,7 +1,11 @@
 .article_principal {
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 .container_cards {
     margin-top: 50px;
+}
+
+.img-card-home {
+    height: 200px;
 }
