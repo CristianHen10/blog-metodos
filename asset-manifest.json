@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/blog-metodos/static/css/main.fb267526.chunk.css",
+    "main.js": "/blog-metodos/static/js/main.c07ce377.chunk.js",
+    "main.js.map": "/blog-metodos/static/js/main.c07ce377.chunk.js.map",
+    "runtime-main.js": "/blog-metodos/static/js/runtime-main.f5b40a80.js",
+    "runtime-main.js.map": "/blog-metodos/static/js/runtime-main.f5b40a80.js.map",
+    "static/css/2.150d169a.chunk.css": "/blog-metodos/static/css/2.150d169a.chunk.css",
+    "static/js/2.808e212c.chunk.js": "/blog-metodos/static/js/2.808e212c.chunk.js",
+    "static/js/2.808e212c.chunk.js.map": "/blog-metodos/static/js/2.808e212c.chunk.js.map",
+    "static/js/3.5f26a43c.chunk.js": "/blog-metodos/static/js/3.5f26a43c.chunk.js",
+    "static/js/3.5f26a43c.chunk.js.map": "/blog-metodos/static/js/3.5f26a43c.chunk.js.map",
+    "index.html": "/blog-metodos/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/blog-metodos/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.fb267526.chunk.css.map": "/blog-metodos/static/css/main.fb267526.chunk.css.map",
+    "static/js/2.808e212c.chunk.js.LICENSE.txt": "/blog-metodos/static/js/2.808e212c.chunk.js.LICENSE.txt",
+    "static/media/declarativa.426bd6d6.jpg": "/blog-metodos/static/media/declarativa.426bd6d6.jpg",
+    "static/media/funcional.79b003ed.jpg": "/blog-metodos/static/media/funcional.79b003ed.jpg",
+    "static/media/icon-blog.c0d73f0c.png": "/blog-metodos/static/media/icon-blog.c0d73f0c.png",
+    "static/media/imperativa.c12e1cc0.jpg": "/blog-metodos/static/media/imperativa.c12e1cc0.jpg",
+    "static/media/objetos.e03b8167.jpg": "/blog-metodos/static/media/objetos.e03b8167.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f5b40a80.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.808e212c.chunk.js",
+    "static/css/main.fb267526.chunk.css",
+    "static/js/main.c07ce377.chunk.js"
+  ]
+}
