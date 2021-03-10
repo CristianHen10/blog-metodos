@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
       <Navbar collapseOnSelect expand="lg" bg="light">
-        <Navbar.Brand href="#home">
+        <Navbar.Brand>
           <img
             src={logo}
             width="100"

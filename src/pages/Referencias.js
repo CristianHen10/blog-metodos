@@ -16,7 +16,16 @@ function Referencias() {
                 ))}
               </ListGroup>
         </div> 
-        <Footer /> 
+        <footer className="footer" style={{position: 'absolute'}}>
+            <div className="container container_footer">
+                <div>
+                    Universidad Iberoamericana 2021.
+                </div>
+                <div>
+                    Cristian Alberto Henao
+                </div>
+            </div>
+        </footer>
         </>
     )
 }
